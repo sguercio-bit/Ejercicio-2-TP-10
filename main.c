@@ -16,7 +16,7 @@ int main (void){
 	srand ((unsigned int) time(NULL));
 
 	for (int i = 0; i < n_arreglo; i++){	//forma: x = min + (float) rand / RAND_MAX * (max-min)
-		arr[i] = 0.0 + (float) rand() / RAND_MAX * (1.0-0.0);	//rango: 0.0 - 1.0
+		arr[i] = 0.0 + (float) rand() / RAND_MAX * (11.0-0.0);	//rango: 0.0 - n(11.0)
 		printf("%f \t", arr[i]);
 	}
 
